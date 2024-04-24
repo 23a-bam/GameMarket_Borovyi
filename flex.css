@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(119, 172, 119, 0.7);
+    display: flex;
+    font-size: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div {
+    border: 1px solid red;
+    border-radius: 10px;
+}

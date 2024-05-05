@@ -5,23 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market</title>
     <link rel="stylesheet" href="market.css">
+    <script src="market.js"></script>
 </head>
 <body>
-    <header>Товари, на які діє знижка</header>
-    <br>
-    <div class="items">
-        <div>Мотокоса</div>
-        <div>Тример</div>
-        <div>Газонокосарка</div>
-        <div>Оприскувач</div>
-    </div>
-    <div class="contacts">
-        <p>ЖИТОМИР</p>
-        <p>вул. Київська, 111</p>
-        <p> &nbsp;+38 (012) 34 56 789</p>
-    </div>
-    <div class="info">
-        *Знижка в розмірі 100 грн діє з Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae aperiam odio, amet eos, quisquam laboriosam odit qui earum labore soluta animi eveniet. Aliquam iure quisquam, deleniti ullam corrupti odio.
-    </div>
+    <h1>Товари, на які діє знижка</h1>
+    <content>
+        <div class="items">
+            <div>
+                <!-- Назва товару -->
+                <h2>Мотокоса 43</h2>
+                <!-- Зображення -->
+                <div><img src="img/motokosa.jpg" alt="Мотокоса 43"></div>
+                <div class="parts-pay">
+                    <div><img src="img/mono-lapka.png">6</div>
+                    <div><img src="img/pb.png">8</div>
+                </div>
+                <!-- Блок ціни у гривнях -->
+                <div class="price">
+                    <div class="old uah">5499</div>
+                    <div class="uah">4497</div>
+                </div>
+                <!-- Блок бонусної ціни -->
+                <div class="price uah bonus">
+                    <div>ціна за купоном</div>
+                    <div class="uah">4395</div>
+                </div>
+            </div>
+            <div>Тример</div>
+            <div>Газонокосарка</div>
+            <div>Оприскувач</div>
+        </div>
+        <div class="contacts">
+            <p>ЖИТОМИР</p>
+            <p>вул. Київська, 111</p>
+            <p> &nbsp;+38 (012) 34 56 789</p>
+        </div>
+        <div class="info">
+            *Знижка в розмірі 100 грн діє з Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae aperiam odio, amet eos, quisquam laboriosam odit qui earum labore soluta animi eveniet. Aliquam iure quisquam, deleniti ullam corrupti odio.
+        </div>
+    </content>
 </body>
 </html>

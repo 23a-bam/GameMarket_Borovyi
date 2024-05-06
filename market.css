@@ -35,14 +35,14 @@ content {
     gap: 10px;
 }
 /* Блок товарів */
-.items {
+#items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 /* Блок окремого товару */
-.items > div {
+.item {
     width: 200px;
     min-height: 400px;
     margin-bottom: 10px;
@@ -60,13 +60,13 @@ content {
 }
 
 /* Блок назви товару */
-.items > div h2 {
+.item h2 {
     font-size: 1em;
     font-weight: bold;
 }
 
 /* Блок зображення товару */
-.items > div > div > img {
+.item > div > img {
     height: 200px;
 }
 
@@ -120,6 +120,10 @@ content {
     font-size: 14px;
 }
 
+.contacts {
+    order: 9999998;
+}
+
 .contacts p {
     margin: 3px;
 }
@@ -134,4 +138,6 @@ content {
     font-size: 0.7em;
     text-align: justify;
     color: rgb(120, 120, 120);
+    order: 9999999;
+    margin: 5px auto;
 }

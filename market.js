@@ -2,6 +2,7 @@ console.log("market.js script connected.");
 
 let itemsDiv = document.getElementById("items");
 
+/*
 let itemsArray = [
     'Газонокосарка 41',
     'Електричний тример 110',
@@ -11,6 +12,30 @@ let itemsArray = [
     'Генератор',
     'Телевізор',
     'Ліхтарик',
+];
+*/
+
+let itemsArray = [{
+        firstName: "Ірина",
+        lastName: "Глібко",
+        age: 43,
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
+    },{
+        firstName: "Лариса",
+        lastName: "Забелло",
+        age: 87,
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna.jpg",
+    },{
+        firstName: "Вікторія",
+        lastName: "Нелипович",
+        age: 35,
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna.jpg",
+    },{
+        firstName: "Анжела",
+        lastName: "Лознюк",
+        age: 29,
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1.jpg",
+    }
 ];
 
 // Перевірка існування знайденого блоку
@@ -56,8 +81,10 @@ if (itemsDiv) {
         itemsDiv.innerHTML +=
         `
         <div class = "item">
-            <h2>Товар №${index + 1} з ${itemsArray.length}</h2>
-            <p>${item}</p>
+            <h2>Учитель № ${index + 1} з ${itemsArray.length}</h2>
+            <p>${item.firstName} ${item.lastName}</p>
+            <img class="photo" src=${item.photo} alt=${item.firstName + item.lastName}>
+            <p>Вік: ${item.age}</p>
         </div>
         `
     });

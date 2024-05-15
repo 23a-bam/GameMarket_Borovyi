@@ -66,8 +66,8 @@ content {
 }
 
 /* Блок зображення товару */
-.item > div > img {
-    height: 200px;
+.item > div > img, .photo {
+    height: 300px;
 }
 
 .parts-pay {

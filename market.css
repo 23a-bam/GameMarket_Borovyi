@@ -12,7 +12,7 @@ body {
 /* Заголовок */
 h1 {
     background: rgb(253, 48, 48);
-    width: 440px;
+    width: 620px;
     margin: 20px auto;
     padding: 10px;
 
@@ -27,7 +27,7 @@ h1 {
 }
 
 content {
-    width: 460px;
+    width: 655px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,8 +43,8 @@ content {
 
 /* Блок окремого товару */
 .item {
-    width: 200px;
-    min-height: 400px;
+    width: 300px;
+    min-height: 500px;
     margin-bottom: 10px;
     padding: 10px;
 
@@ -140,4 +140,8 @@ content {
     color: rgb(120, 120, 120);
     order: 9999999;
     margin: 5px auto;
+}
+
+a {
+    margin-bottom: 10px;
 }

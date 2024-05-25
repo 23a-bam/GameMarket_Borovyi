@@ -43,7 +43,7 @@ content {
 
 /* Блок окремого товару */
 .item {
-    width: 300px;
+    width: 630px;
     min-height: 500px;
     margin-bottom: 10px;
     padding: 10px;
@@ -68,6 +68,11 @@ content {
 /* Блок зображення товару */
 .item > div > img, .photo {
     height: 300px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
 }
 
 .parts-pay {

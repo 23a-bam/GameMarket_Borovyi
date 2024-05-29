@@ -293,10 +293,10 @@ if (itemsDiv) {
             <img class="photo" src="img/${item.authorPhoto}" alt=${item.name + item.game}>
             <img class="photo" src="img/${item.gamePhoto}">
             </div>
-            <a href="${item.githubGame}" target="_blank">GitHub</a>
-            <a href="${item.pagesGame}" target="_blank">Грати</a>
-            <a href="${item.feedbackForm}" target="_blank">Відгук</a>
-            <a href="${item.githubMarket}" target="_blank">Market</a>
+            <a href="${item.github}" target="_blank">GitHub</a>
+            <a href="${item.githubPages}" target="_blank">Грати</a>
+            <a href="${item.surveyForm}" target="_blank">Відгук</a>
+            <a href="${item.gameMarketPages}" target="_blank">Market</a>
         </div>
         `
     });
